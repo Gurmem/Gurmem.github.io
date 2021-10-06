@@ -1,1 +1,0 @@
-# Gurmem.github.io
