@@ -5,58 +5,70 @@
     <title>Forum</title>
     <link rel="shortcut icon" href="/media/avatar.jpg">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="/stiles/text.css">
+    <link rel="stylesheet" href="/stiles/table.css">
+    <link rel="stylesheet" href="/stiles/other.css">
+    <link rel="stylesheet" href="/stiles/menu.css">
   </head>
 
 <body bgcolor="#9966CC">
-    <table cellspacing="0" cellpadding="12"> 
-        <tr>
-            <td><a href="main.html"> <h1>Главная</h1></a></td>
-        </tr>
-        <tr>
-            <td><a href="subjects.html"> Мои любимые предметы</a></td>
-        </tr>
-        <tr>
-            <td><a href="programming-languages.html"> Мои знания языков програмирования</a></td>
-        </tr>
-        <tr>
-            <td><a href="my-hobbies.html"> Хобби</a></td>
-        </tr>
-        <tr>
-            <td><a href="ai.html">Что я знаю об IT</a></td>
-        </tr>
-        <tr>
-            <td><a href="Lovely-languges.html">Интересующие меня языки программирования</a></td>
-        </tr>
-        <tr>
-            <td><a href="Forum.html"> Форум</a></td>
-        </tr>
-    </table>
-</table>
 
+    <div class="container">
+        <div class = "menu">
+            <div class = "menuIt"> 
+                <a href="main.html" class="ref"> <h2>Главная</h2></a>
+            </div>
+            <div  class = "menuIt">
+                <a href="Galary.html" class="ref"> Галерея</a>
+            </div>
+            <div  class = "menuIt">
+                <a href="programming-languages.html" class="ref"> Мои знания языков програмирования</a>
+            </div>
+            <div  class = "menuIt">
+                <a href="my-hobbies.html" class="ref"> Хобби</a>
+            </div>
+            <div  class = "menuIt">
+                <a href="ai.html" class="ref">Что я знаю об IT</a>
+            </div>
+            <div  class = "menuIt">
+                <a href="Lovely-languges.html" class="ref"> Любимые языки программирования</a>
+                <div  class = "menuIt-child">
+                    <a href="Scala.html" class="ref">Scala</a><br>
+                    <a href="Java.html" class="ref">Java</a><br>
+                    <a href="CSharp.html" class="ref">C#</a><br>
+                </div>
+            </div>
+            <div  class = "menuIt" >
+                <a href="Forum.html" class="ref"> Форум</a>
+            </div>
+        </div>
+    </div>
 
-<table>
-    <tr>
-        <td>
-            <br>
-            <input size="30" name="theme" placeholder="Тема">
-            <br>
-            <textarea rows="5" cols="32" size="30" name="Comment" placeholder="Введите отзыв о сайте"></textarea>
-            <br>
-            <input type="submit" value="Отправить">
-        </td>
-        <td>
-            <table border="1">
-                <tr>
-                    <td><h3>User1: Хорошее начало! </h3>
-                        <p>Для первого сайта очень даже не плохо, продолжай в том же духе!</p></td>
-                </tr>
-                <tr>
-                    <td><h3>User2: Поддерживаю</h3>
-                    <p>Полностью согласен с прошлым комментатором, автор, ты можешь лучше!</p></td>
-                </tr>
+            
+            <table>
+            <tr>
+                <td>
+                    <input size="30" type="text" name="theme" placeholder="Тема">
+                    <br>
+                    <textarea rows="5" cols="32" size="30" name="Comment" placeholder="Введите отзыв о сайте"></textarea>
+                    <br>
+                    <input type="submit" value="Отправить">
+                </td>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <td><h3>User1: Хорошее начало! </h3>
+                                <p>Для первого сайта очень даже не плохо, продолжай в том же духе!</p></td>
+                        </tr>
+                        <tr>
+                            <td><h3>User2: Поддерживаю</h3>
+                            <p>Полностью согласен с прошлым комментатором, автор, ты можешь лучше!</p></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
             </table>
-        </td>
-    </tr>
-</table>
+
+
 </body>
 </html>

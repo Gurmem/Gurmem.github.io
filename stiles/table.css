@@ -1,0 +1,17 @@
+.table2 
+{
+    text-align: left;
+    font-size: 20px;
+}
+.table2 th
+{
+    color:rgb(22, 4, 39);
+    font-size: 30px;
+}
+.table2 td
+{
+    color:rgb(22, 4, 39);
+    font-size: 20px;
+}
+.table2 tr:nth-child(odd){background-color:rgb(165, 82, 165);}
+.table2 tr:nth-child(even){background-color:rgb(226, 127, 45);}

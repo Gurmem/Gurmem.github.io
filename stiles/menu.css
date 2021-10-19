@@ -1,0 +1,47 @@
+.container
+{
+	background-color:rgb(137, 114, 158);
+}
+.menu
+{
+	margin: auto;
+	text-align: center;
+}
+.menu a:hover
+{
+	color: rgba(240, 177, 75, 0.75);
+}
+.menuIt
+{
+	position: relative;
+	display: inline-block;
+	width: 14%;
+	margin: auto;
+	text-align: center;
+}
+
+.menuIt a 
+{
+	cursor:pointer;
+	max-width: 10%;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.menuIt:hover .menuIt-child 
+{
+    display: block;
+}
+
+.menuIt-child 
+{
+    display: none;
+	padding: 15px;
+	line-height: 3;
+	border: 5px solid rgba(46, 43, 39, 0.75);
+    background-color: rgb(212, 226, 151);
+	position:absolute;
+}
+
+

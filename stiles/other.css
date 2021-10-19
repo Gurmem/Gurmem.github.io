@@ -1,0 +1,27 @@
+
+.ref
+    {
+        text-decoration:none;
+    }
+@media print
+    {
+        *
+        {
+            color: rgb(0, 0, 0);
+            background-color: white;
+        }
+    }
+@page{size: auto;}
+.comment
+{
+    text-align: center;
+}
+html,body{height:100%;}
+body
+{
+    background: linear-gradient(to top,rgb(62, 228, 90),rgb(113, 13, 138));
+    background: -moz-linear-gradient(to top,rgb(62, 228, 90),rgb(113, 13, 138));
+    background: -o-linear-gradient(to top,rgb(62, 228, 90),rgb(113, 13, 138));
+    background: -ms-linear-gradient(to top,rgb(62, 228, 90),rgb(113, 13, 138));
+    background-attachment: fixed;
+}

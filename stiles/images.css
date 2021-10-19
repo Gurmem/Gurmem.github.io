@@ -1,0 +1,19 @@
+ .img-text
+{	
+	display: inline-block;
+    border: 1px solid #333; 
+    padding: 7px; 
+    margin: 10px 0 5px 5px; 
+    background: #f0f0f0; 
+}
+.img-text p 
+{
+	text-align: center;
+}
+
+.gallery
+{
+	width:100%;
+} 
+.game img{  width:640px; height:375px;}
+
