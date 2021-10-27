@@ -25,3 +25,44 @@ body
     background: -ms-linear-gradient(to top,rgb(62, 228, 90),rgb(113, 13, 138));
     background-attachment: fixed;
 }
+
+#popup
+{
+    background:rgba(0,0,0,0.8);
+    position: fixed;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    text-align:center;
+}
+
+#popup p
+{
+    font-size:20px;
+    top:35px;
+    right:65px;
+	position: absolute;
+}
+
+#popup p:hover
+{
+    cursor:pointer;
+}
+
+#popup img {
+	position: relative;
+	margin: auto;
+	z-index:2;
+	max-height:94%;
+	max-width:94%;
+	margin:1% 0 0 0;
+}
+
+.body_hide {
+	opacity: 0;
+	transition: 1s opacity ease-in-out;
+	}
+.body_visible {
+	opacity: 1;
+}

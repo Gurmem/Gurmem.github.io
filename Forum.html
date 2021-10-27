@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="/stiles/table.css">
     <link rel="stylesheet" href="/stiles/other.css">
     <link rel="stylesheet" href="/stiles/menu.css">
+    <script type="text/javascript" src="/script/Something.js"></script>
   </head>
 
-<body bgcolor="#9966CC">
+<body class ="body_hide">
 
     <div class="container">
         <div class = "menu">
@@ -44,31 +45,27 @@
         </div>
     </div>
 
-            
-            <table>
-            <tr>
-                <td>
-                    <input size="30" type="text" name="theme" placeholder="Тема">
-                    <br>
-                    <textarea rows="5" cols="32" size="30" name="Comment" placeholder="Введите отзыв о сайте"></textarea>
-                    <br>
-                    <input type="submit" value="Отправить">
-                </td>
-                <td>
-                    <table border="1">
-                        <tr>
-                            <td><h3>User1: Хорошее начало! </h3>
-                                <p>Для первого сайта очень даже не плохо, продолжай в том же духе!</p></td>
-                        </tr>
-                        <tr>
-                            <td><h3>User2: Поддерживаю</h3>
-                            <p>Полностью согласен с прошлым комментатором, автор, ты можешь лучше!</p></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            </table>
+    <div class="comment">
+        <form action="#">
+            <p>
+            <h1>~Номер телефона~</h1>
+            <input input type="text" name="phone" id="phone" placeholder="800-555-35-35" onchange="onchange_form(this)">
+            </p>
+            <p>
+            <h1>~Почта~</h1>
+            <input type="text" name="email" id="email" placeholder="example@nure.ua" onchange="onchange_form(this)">	
+            </p>
+            <p>
+                <h1>~Комментарий~</h1>
+                <textarea name="comment" rows="8" cols="50"></textarea>
+            </p>
+            <p>
+                <button name="add comment"><h4>Отправить комментарий</h4></button>
+            </p>
+            <br>
+        </form>
+    </div>
 
-
+<script>fadeImage()</script>
 </body>
 </html>
