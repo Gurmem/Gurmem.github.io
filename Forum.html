@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="/stiles/table.css">
     <link rel="stylesheet" href="/stiles/other.css">
     <link rel="stylesheet" href="/stiles/menu.css">
+    <noscript>
+        <style>
+        .body_hide {
+	        opacity: 1;
+	    }
+        </style>
+        <h2 align="center">Ваш браузер не поддерживает скрипты</h2>
+    </noscript>
     <script type="text/javascript" src="/script/Something.js"></script>
   </head>
 
@@ -48,24 +56,25 @@
     <div class="comment">
         <form action="#">
             <p>
-            <h1>~Номер телефона~</h1>
-            <input input type="text" name="phone" id="phone" placeholder="800-555-35-35" onchange="onchange_form(this)">
+                <h1>~Номер телефона~</h1>
+                <input input type="text" name="phone" id="phone" placeholder="800-555-35-35">
+                <button type='button' name="Test phone" onclick="onclick_form(phone)"><h4>Проверить</h4></button>
             </p>
             <p>
-            <h1>~Почта~</h1>
-            <input type="text" name="email" id="email" placeholder="example@nure.ua" onchange="onchange_form(this)">	
+                <h1>~Почта~</h1>
+                <input type="text" name="email" id="email" placeholder="example@nure.ua">	
+                <button type='button' name="Test emeil" onclick="onclick_form(email)"><h4>Проверить</h4></button>
             </p>
             <p>
                 <h1>~Комментарий~</h1>
                 <textarea name="comment" rows="8" cols="50"></textarea>
             </p>
             <p>
-                <button name="add comment"><h4>Отправить комментарий</h4></button>
+                <button type='button' name="add comment"><h4>Отправить комментарий</h4></button>
             </p>
             <br>
         </form>
     </div>
 
-<script>fadeImage()</script>
 </body>
 </html>
